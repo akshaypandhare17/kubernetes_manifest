@@ -15,6 +15,6 @@ spec:
         app: demo_website
     spec:
       containers:
-      - image: httpd_image
+      - image: demo_image
         name: httpd
 
