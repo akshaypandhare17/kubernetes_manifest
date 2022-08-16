@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: demo_website
-  name: demo_website
+  name: demo-website
 spec:
   ports:
   - port: 80
