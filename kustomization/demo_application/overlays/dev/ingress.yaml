@@ -17,5 +17,6 @@ spec:
             name: demo-website
             port:
               number: 80
+              targetPort: 8080
         path: /
         pathType: Prefix
