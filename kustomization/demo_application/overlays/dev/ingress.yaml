@@ -4,7 +4,7 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
-    alb.ingress.kubernetes.io/subnets: subnet-0fb1979d999826535,subnet-0cfec9ffd37b0c931
+    alb.ingress.kubernetes.io/subnets: subnet-01a70251e217812c0,subnet-0fdb7ffefc245429b
     kubernetes.io/ingress.class: alb
     nginx.ingress.kubernetes.io/rewrite-target: /
   name: demo-website
