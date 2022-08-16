@@ -6,14 +6,14 @@ metadata:
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
     kubernetes.io/ingress.class: alb
     nginx.ingress.kubernetes.io/rewrite-target: /
-  name: demo_website
+  name: demo-website
 spec:
   rules:
   - http:
       paths:
       - backend:
           service:
-            name: demo_website
+            name: demo-website
             port:
               number: 80
         path: /
