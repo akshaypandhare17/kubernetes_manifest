@@ -9,4 +9,4 @@ resources:
 images:
 - name: demo_image
   newName: 189687473457.dkr.ecr.sa-east-1.amazonaws.com/demo_application
-  newTag: d6704b4b
+  newTag: e30f913f
