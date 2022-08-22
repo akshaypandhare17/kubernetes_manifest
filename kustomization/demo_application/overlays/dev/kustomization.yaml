@@ -1,7 +1,11 @@
-bases:
-- ../../base
 namePrefix: dev-
 images:
 - name: demo_image
+  newName: 189687473457.dkr.ecr.sa-east-1.amazonaws.com/demo_application
+  newTag: be8998cd
 patchesStrategicMerge:
 - ingress.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../base
