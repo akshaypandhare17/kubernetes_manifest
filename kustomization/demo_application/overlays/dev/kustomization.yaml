@@ -3,3 +3,5 @@ bases:
 namePrefix: dev-
 images:
 - name: demo_image
+patchesStrategicMerge:
+- ingress.yaml
