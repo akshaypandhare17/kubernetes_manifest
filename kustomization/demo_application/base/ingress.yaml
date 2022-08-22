@@ -7,14 +7,22 @@ metadata:
     alb.ingress.kubernetes.io/subnets: subnet-01a70251e217812c0,subnet-0fdb7ffefc245429b,subnet-0844623e90ce3e196
     kubernetes.io/ingress.class: alb
     nginx.ingress.kubernetes.io/rewrite-target: /
+<<<<<<< HEAD:kustomization/demo_application/base/ingress.yaml
+  name: frontend-ingress
+=======
   name: demo-website
+>>>>>>> e175ba22778be04551f5b71f5cd737ac5a38c4d9:kustomization/demo_application/overlays/dev/ingress.yaml
 spec:
   rules:
   - http:
       paths:
       - backend:
           service:
+<<<<<<< HEAD:kustomization/demo_application/base/ingress.yaml
+            name: frontend
+=======
             name: demo-website
+>>>>>>> e175ba22778be04551f5b71f5cd737ac5a38c4d9:kustomization/demo_application/overlays/dev/ingress.yaml
             port:
               number: 80
         path: /
