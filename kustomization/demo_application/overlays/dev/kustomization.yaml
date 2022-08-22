@@ -3,8 +3,3 @@ bases:
 namePrefix: dev-
 images:
 - name: demo_image
-<<<<<<< HEAD
-=======
-  newName: 189687473457.dkr.ecr.sa-east-1.amazonaws.com/demo_application
-  newTag: e30f913f
->>>>>>> e175ba22778be04551f5b71f5cd737ac5a38c4d9
