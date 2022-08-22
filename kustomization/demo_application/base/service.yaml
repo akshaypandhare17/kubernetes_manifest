@@ -2,22 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-<<<<<<< HEAD:kustomization/demo_application/base/service.yaml
     app: frontend
   name: frontend
-=======
-    app: demo-website
-  name: demo-website
->>>>>>> e175ba22778be04551f5b71f5cd737ac5a38c4d9:kustomization/demo_application/overlays/dev/service.yaml
 spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 80
+    targetPort: 8080
   selector:
-<<<<<<< HEAD:kustomization/demo_application/base/service.yaml
     app: frontend
-=======
-    app: demo-website
->>>>>>> e175ba22778be04551f5b71f5cd737ac5a38c4d9:kustomization/demo_application/overlays/dev/service.yaml
   type: NodePort
