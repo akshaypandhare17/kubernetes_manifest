@@ -1,7 +1,7 @@
 images:
 - name: demo_image
   newName: 189687473457.dkr.ecr.sa-east-1.amazonaws.com/demo_application
-  newTag: 5e436766
+  newTag: b5ea60f3
 namePrefix: dev-
 patchesStrategicMerge:
 - ingress.yaml
