@@ -2,7 +2,7 @@
 images:
 - name: demo_image
   newName: 189687473457.dkr.ecr.sa-east-1.amazonaws.com/demo_application
-  newTag: 997d77a3
+  newTag: 011ffbdd
    
 namePrefix: dev-
 
