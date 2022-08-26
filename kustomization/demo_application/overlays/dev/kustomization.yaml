@@ -1,8 +1,6 @@
 # Deployment image.
 images:
 - name: demo_image
-  newName: 189687473457.dkr.ecr.sa-east-1.amazonaws.com/demo_application
-  newTag: bc4cb3f7
    
 namePrefix: dev-
 
